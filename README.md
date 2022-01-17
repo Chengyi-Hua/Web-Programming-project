@@ -15,7 +15,8 @@ Link: https://www.figma.com/file/X2edvrJbaVunssM9CeGrcf/JOY-Mock-up?node-id=0%3A
 -Pitch/Demo-video:
 Link: https://www.youtube.com/watch?v=qd4YGj0H4Wg
 
--Daten Dev:
+-Daten Dev: 
+
 <img width="597" alt="image" src="https://user-images.githubusercontent.com/96745479/149769309-337efd8d-b5aa-4a86-8e03-869d0a65ccb9.png">
 
 zentrale (cloudbasierte), persistente Datenspeicherung
