@@ -30,6 +30,6 @@ Da es momentan sehr schwierig ist, Termine bei Psychologen zu bekommen, wäre un
 
 
 
-## Deno-Einarbeitung uns efforts
+## Deno-Einarbeitung und efforts
 
 
