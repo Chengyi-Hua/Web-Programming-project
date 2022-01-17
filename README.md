@@ -22,8 +22,12 @@ Link: https://www.youtube.com/watch?v=qd4YGj0H4Wg
 zentrale (cloudbasierte), persistente Datenspeicherung
 
 
+
+
 ## Web-Programming-project
 Da es momentan sehr schwierig ist, Termine bei Psychologen zu bekommen, wäre unserer Meinung nach eine sinnvolle Ergänzung zur App eine Webschnittstelle, mit der die User mit Psychologen (Personen mit entsprechenden Wissensstand) chatten können und sich in Gruppen austauschen können. Zukünftig können wir uns auch vorstellen AI-Chat-Bots als psychologen einzusetzen.
+
+
 
 
 ## Deno-Einarbeitung uns efforts
