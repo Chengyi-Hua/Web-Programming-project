@@ -33,18 +33,18 @@ Eine Landingpage als Übersichts-onepager für JOY wird erstellt. Dabei wird kei
 Dabei haben wir beschlossen die Grunddatei für Fronts; Farben; Boxgrößen aus Boostrape Studio zu nehmen.  
 
 Lernmaterial:
-w3schools    -    https://www.w3schools.com : Lernkurse und Sessions über verschiedene Themen
-Youtube      -    https://www.youtube.com/watch?v=dOgFkZiVC8w : das arbeiten mit Container wurde erlernt. "Wie sollen Elemente plaziert werden" ; Die Einbettung von                                                                     Bilder und Videos; Farbänderung; Importieren von Fronts; Verschiebung´von Elemente zum Beispiel mit                                                                       "margin-left = "
-                  https://www.youtube.com/watch?v=2D8ScEGFa74 : Einbinden von CSS.Datei; Farbänderung; Anpassung der mobilen Übersicht. Hier wurde eine Seite als                                                                         Beispiel erstellt. Gute übersicht
-                  https://www.youtube.com/watch?v=h5nEfuxdVS0 : HTML-Grundlagen. Überschriften; Listen; Zeilenumbrüche etc
-                  https://www.youtube.com/watch?v=PkZNo7MFNFg : "Beginners Javascript course" - Ein Standalone Video. Nur Teilelemente wurde hier angeschaut. Da es eine                                                                 Art Einarbeitungspacket für Javascript darstellt. 
-Bootstrap Studio
-Visual Studio code
+- w3schools :  https://www.w3schools.com : Lernkurse und Sessions über verschiedene Themen
+- Youtube   :  - https://www.youtube.com/watch?v=dOgFkZiVC8w : das arbeiten mit Container wurde erlernt. "Wie sollen Elemente plaziert werden" ; Die Einbettung von                                                                     Bilder und Videos; Farbänderung; Importieren von Fronts; Verschiebung´von Elemente zum Beispiel mit                                                                       "margin-left = "
+               - https://www.youtube.com/watch?v=2D8ScEGFa74 : Einbinden von CSS.Datei; Farbänderung; Anpassung der mobilen Übersicht. Hier wurde eine Seite als                                                                         Beispiel erstellt. Gute übersicht
+               - https://www.youtube.com/watch?v=h5nEfuxdVS0 : HTML-Grundlagen. Überschriften; Listen; Zeilenumbrüche etc
+               - https://www.youtube.com/watch?v=PkZNo7MFNFg : "Beginners Javascript course" - Ein Standalone Video. Nur Teilelemente wurde hier angeschaut. Da es eine                                                                 Art Einarbeitungspacket für Javascript darstellt. 
+- Bootstrap Studio
+- Visual Studio code
 
 
 ## Deno-Einarbeitung und efforts
 Lernmaterial:
-Youtube
-Unterrichtseinheiten 
-Denoblog: https://deno.com/blog für aktuelle News
+- Youtube
+- Unterrichtseinheiten 
+- Denoblog: https://deno.com/blog für aktuelle News
 
