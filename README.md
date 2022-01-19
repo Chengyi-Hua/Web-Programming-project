@@ -50,3 +50,19 @@ Lernmaterial:
 - Unterrichtseinheiten 
 - Denoblog: https://deno.com/blog für aktuelle News
 
+Problem 1: Download. für Windows habe ich in Powershell "iwr https://deno.land/x/install/install.ps1 -useb | iex" eingegeben und es hat nicht geklappt. 
+Lösung: Powershell ISE als administrator öffnen und "iwr https://deno.land/x/install/install.ps1 -useb | iex" eingeben - hat geklappt! :)
+
+Problem 2.1: es gibt Sachen die man noch installieren sollte, um mit svelte zu arbeiten z.B. "deno run --allow-run --allow-read https://deno.land/x/snel/install.ts" 
+nur wenn man das runtergeladen hat, kann man mit "trex run start" die gewünschte Web app starten. (wenn man in den richtigen Pfad ist)
+
+Problem 2.2: Es muss "https://deno.land/x/cors/mod.ts" modul installiert werden. Ebenso wie "https://deno.land/x/opine@2.1.1/mod"
+
+Stand 19.01.2022: Frage? kann nun die Webapp aufrufen, jedoch gibt es noch Probleme. dann die Rückgabe aus Backend nicht mehr bekommen. Wisst ihr noch wie genau wir da vorgegangen sind? Ich meine Code-Basis ist da gleiche, gab es Befehle in der Console, die ich verpasst habe? 
+
+
+## Svelte Einarbeitung
+How to generate a svelte app:
+- https://www.youtube.com/watch?v=lnpdn2rE2N8
+- 
+
