@@ -1,5 +1,9 @@
-<script>
-  import Home from "@/components/Home.svelte";
+
+ <script>
+ // This is a svelte component, - the root component
+
+ 
+import Home from "@/components/Home.svelte";
   import { fade } from "svelte/transition";
 
   let name = "World";
