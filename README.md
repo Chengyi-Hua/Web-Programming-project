@@ -43,6 +43,38 @@ Lernmaterial:
 - Bootstrap Studio
 - Visual Studio code
 
+## How to use
+### Step 1: Clone repository
+```bash
+git clone https://github.com/Chengyi-Hua/Web-Programming-project.git
+```
+### Step 2: Install Deno
+for MacOS use Homebrew
+```bash
+brew install deno
+```
+### Step 3: cd to the repository
+```bash
+cd /Users/<user>/Web-Programming-project
+```
+### Step 4: install necessary dependencies
+```bash
+deno run --allow-run --allow-read https://deno.land/x/snel/install.ts
+```
+### Step 5: cd backend and run server.ts
+```bash
+cd backend
+deno run --allow-all server.ts
+```
+### Step 6: open new terminal, cd to frontend and run with trex
+```bash
+cd /Users/<user>/Web-Programming-project/frontend
+trex run start
+```
+make sure trex and snel are added to your PATH
+```bash
+path+=('/Users/<user>/.deno/bin')
+```  
 
 ## Deno-Einarbeitung und efforts
 Lernmaterial:
