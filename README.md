@@ -1,6 +1,40 @@
 # Web-Programming-project
 DHBW Semester 3. Webapp 
 
+## How to use
+### Step 1: Clone repository
+```bash
+git clone https://github.com/Chengyi-Hua/Web-Programming-project.git
+```
+### Step 2: Install Deno
+for MacOS use Homebrew
+```bash
+brew install deno
+```
+### Step 3: cd to the repository
+```bash
+cd /Users/<user>/Web-Programming-project
+```
+### Step 4: install necessary dependencies
+```bash
+deno run --allow-run --allow-read https://deno.land/x/snel/install.ts
+```
+### Step 5: cd backend and run server.ts
+```bash
+cd backend
+deno run --allow-all server.ts
+```
+### Step 6: open new terminal, cd to frontend and run with trex
+```bash
+cd /Users/<user>/Web-Programming-project/frontend
+trex run start
+```
+make sure trex and snel are added to your PATH
+```bash
+path+=('/Users/<user>/.deno/bin')
+```  
+
+
 ## Fallstudie
 In der Fallstudie wurde eine App entwickelt, die Menschen mit einem stressigen Alltag oder Leuten, die sich generell mehr mit ihrer mentalen Gesundheit beschäftigen möchten, einen persönlichen mobilen psychologen bereitstellt. Dieser bietet zahlreiche Funktionen, beispielsweise kann man sich durch tägliche Quotes motivieren und aufmuntern lassen, Tagebuch führen und durch tägliche Aufgaben sein Selbstbewusstsein erweitern und sich persönlich weiterentwickeln.
 
@@ -43,38 +77,6 @@ Lernmaterial:
 - Bootstrap Studio
 - Visual Studio code
 
-## How to use
-### Step 1: Clone repository
-```bash
-git clone https://github.com/Chengyi-Hua/Web-Programming-project.git
-```
-### Step 2: Install Deno
-for MacOS use Homebrew
-```bash
-brew install deno
-```
-### Step 3: cd to the repository
-```bash
-cd /Users/<user>/Web-Programming-project
-```
-### Step 4: install necessary dependencies
-```bash
-deno run --allow-run --allow-read https://deno.land/x/snel/install.ts
-```
-### Step 5: cd backend and run server.ts
-```bash
-cd backend
-deno run --allow-all server.ts
-```
-### Step 6: open new terminal, cd to frontend and run with trex
-```bash
-cd /Users/<user>/Web-Programming-project/frontend
-trex run start
-```
-make sure trex and snel are added to your PATH
-```bash
-path+=('/Users/<user>/.deno/bin')
-```  
 
 ## Deno-Einarbeitung und efforts
 Lernmaterial:
