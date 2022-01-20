@@ -19,6 +19,7 @@ import Home from "@/components/Home.svelte";
     padding: 1em;
     max-width: 240px;
     margin: 0 auto;
+    color: #ffffff;
   }
 
   @media (min-width: 640px) {

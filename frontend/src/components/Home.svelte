@@ -3,7 +3,6 @@
 
   export let name;
   let inputValue;
-
   let response;
 
   async function handleClick() {
@@ -13,14 +12,48 @@
     ).json();
     alert(response.answer)
   }
+
+
+  const rows =[
+    {RELATIONSHIPS: 'crash', MOTIVATION: 'work', RANDOM: 'facts'},
+    {RELATIONSHIPS: 'family', MOTIVATION: 'love', RANDOM: 'numbar'},
+    {RELATIONSHIPS: 'friends', MOTIVATION: 'sport', RANDOM: 'names'},
+    {RELATIONSHIPS: 'marriage', MOTIVATION: 'school', RANDOM: 'furtune cookies'},
+  ];
+
+  const columns = [
+    { 
+      key: "RELATIONSHIPS",
+      title: "RELATIONSHIPS",
+      value: v => v.RELATIONSHIPS,
+      sortable: true,
+    },
+    {
+      key: "MOTIVATION",
+      title: "MOTIVATION",
+      value: v => v.MOTIVATION,
+      sortable: true,
+    },
+    {
+      key: "RANDOM",
+      title: "RANDOM",
+      value: v => v.RANDOM,
+      sortable: true,
+    },
+
+  ]
+ 
+
 </script>
 
+
+
+
+
+
 <div class="superStyleSuperGeil">
-  <h1>Hello {name}!</h1>
-  <p>
-    Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn
-    how to build Svelte apps.
-  </p>
+  <h1> JOY </h1>
+  <h2>- stellt eine Frage oder hinterlasse ein Kommentar - </h2>
 
   <input
     type="text"
@@ -33,7 +66,14 @@
   {#if response !== undefined}
     {response.answer}
   {/if}
+
+
+
+
 </div>
+
+
+
 
 <link
   href="https://fonts.googleapis.com/css?family=Overpass:100,400"
@@ -42,13 +82,15 @@
 
 <style>
   h1 {
-    color: #4c00ff;
+    color: #ffffff;
     text-transform: uppercase;
-    font-size: 4em;
+    font-size: 3em;
     font-weight: 100;
+    margin: 5%;
+    text-align: right
   }
 
   .superStyleSuperGeil {
-    background-color: violet;
+    background-color: #688f68;
   }
 </style>
