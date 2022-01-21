@@ -1,9 +1,6 @@
 <script>
   import { Request } from "https://deno.land/x/request@1.3.2/mod.ts";
-<<<<<<< Updated upstream
-=======
   import Box from './Box.svelte';
->>>>>>> Stashed changes
 
   export let name;
   let inputValue;
@@ -57,14 +54,10 @@
 
 <div class="superStyleSuperGeil">
   <h1> JOY </h1>
-<<<<<<< Updated upstream
-  <h2>- stellt eine Frage oder hinterlasse ein Kommentar - </h2>
-=======
 
   <Box>
   <h2>- stellt eine Frage oder hinterlasse ein Kommentar - </h2>
   </Box>
->>>>>>> Stashed changes
 
   <input
     type="text"
