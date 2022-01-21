@@ -1,7 +1,7 @@
 <script>
   import { Request } from "https://deno.land/x/request@1.3.2/mod.ts";
+  
 
-  export let name;
   let inputValue;
   let response;
 
@@ -53,7 +53,10 @@
 
 <div class="superStyleSuperGeil">
   <h1> JOY </h1>
+
+
   <h2>- stellt eine Frage oder hinterlasse ein Kommentar - </h2>
+
 
   <input
     type="text"
