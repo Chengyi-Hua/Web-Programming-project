@@ -11,7 +11,6 @@
     response = await (
       await fetch("http://localhost:3004/gibmirdieloesung")
     ).json();
-    alert(response.answer)
   }
 
 
