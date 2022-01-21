@@ -1,8 +1,9 @@
 <script>
   import { Request } from "https://deno.land/x/request@1.3.2/mod.ts";
   import Box from './Box.svelte';
+  import SvelteTable from "./svelte-table.svelte";
 
-  export let name;
+  export let name = "JOY";
   let inputValue;
   let response;
 
@@ -21,28 +22,16 @@
     {RELATIONSHIPS: 'marriage', MOTIVATION: 'school', RANDOM: 'furtune cookies'},
   ];
 
-  const columns = [
-    { 
-      key: "RELATIONSHIPS",
-      title: "RELATIONSHIPS",
-      value: v => v.RELATIONSHIPS,
+  const columns = Object.keys(rows[0]).map((key) => {
+    return {
+      key,
+      title: key,
+      value: row => row[key],
       sortable: true,
-    },
-    {
-      key: "MOTIVATION",
-      title: "MOTIVATION",
-      value: v => v.MOTIVATION,
-      sortable: true,
-    },
-    {
-      key: "RANDOM",
-      title: "RANDOM",
-      value: v => v.RANDOM,
-      sortable: true,
-    },
 
-  ]
- 
+    }
+  });   
+
 
 </script>
 
@@ -52,11 +41,15 @@
 
 
 <div class="superStyleSuperGeil">
-  <h1> JOY </h1>
+  <h1> {name} </h1>
 
   <Box>
-  <h2>- stellt eine Frage oder hinterlasse ein Kommentar - </h2>
+  <h3>- stellt eine Frage oder hinterlasse ein Kommentar - </h3>
   </Box>
+
+
+  <p><br></p>
+
 
   <input
     type="text"
@@ -65,17 +58,34 @@
   />
 
   <button on:click={handleClick}> Send </button>
-  <p><br /></p>
+  <br>
   {#if response !== undefined}
     {response.answer}
   {/if}
-
-
+  <br>
+  <br>
 
 
 </div>
 
 
+
+
+<div class="table">
+
+  
+  <h2>
+    Mögliche Themen
+  </h2>
+
+  <br>
+  <SvelteTable
+    {rows}
+    {columns}
+  />
+</div>
+
+  
 
 
 <link
@@ -89,11 +99,37 @@
     text-transform: uppercase;
     font-size: 3em;
     font-weight: 100;
-    margin: 5%;
+    margin: 1%;
     text-align: right
   }
+
+  h2 {
+    color: #ffffff;
+    text-align: right;
+    margin: 1.5%;
+  }
+  
+  h3 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 100;
+    margin: 1%;
+    text-align: center
+  }
+
 
   .superStyleSuperGeil {
     background-color: #688f68;
   }
+
+
+  .table {
+    background-color: #688f68;
+    color: #ffffff;
+    text-align: justify all;
+  }
+
+
+
 </style>

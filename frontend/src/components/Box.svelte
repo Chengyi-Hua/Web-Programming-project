@@ -4,11 +4,12 @@
 
 <style>
 	.box {
-		width: 300px;
-		border: 1px solid #aaa;
+		width: 710px;
+		border: 1px solid rgb(196, 192, 192);
 		border-radius: 2px;
-		box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+		box-shadow: 2px 2px 8px #0d6820e1;
 		padding: 1em;
 		margin: 0 0 1em 0;
+		text-align: center;
 	}
 </style>

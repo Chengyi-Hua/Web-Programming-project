@@ -3,11 +3,17 @@
  // This is a svelte component, - the root component
 
  
-import Home from "@/components/Home.svelte";
+  import Home from "@/components/Home.svelte";
   import { fade } from "svelte/transition";
+  
 
-  let name = "World";
+  let name = "JOY";
+
 </script>
+
+
+
+
 
 <main transition:fade>
   <Home {name} />
