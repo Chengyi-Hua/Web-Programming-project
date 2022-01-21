@@ -2,7 +2,7 @@
   import { Request } from "https://deno.land/x/request@1.3.2/mod.ts";
   import Box from './Box.svelte';
 
-  export let name;
+
   let inputValue;
   let response;
 
