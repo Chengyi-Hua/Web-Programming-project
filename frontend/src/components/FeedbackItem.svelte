@@ -1,6 +1,12 @@
 <script>
    import Card from "./Card.svelte";
    export let item 
+
+   const handleDelete = (itemId) => {
+    FeedbackStore.update((currentFeedback) => {
+      return currentFeedback.filter(item => item.id != itemId)
+    })
+  }
 </script>
 
 <Card>

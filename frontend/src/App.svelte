@@ -6,7 +6,7 @@
   import Home from "@/components/Home.svelte";
   import { fade } from "svelte/transition";
   import FeedbackList from "./components/FeedbackList.svelte";
-  
+  import FeedbackStats from  "./components/FeedbackStats.svelte"
 
   let name = "JOY";
   let feedback = [
@@ -27,6 +27,8 @@
   }
 ]
 
+$: count = feedback.length
+$: average = feedback.reduce((a, {rating}) => a + rating, 0 / feedback.length)
 </script>
 
 
@@ -36,7 +38,7 @@
 <main transition:fade>
   <Home {name} />
 
-
+  <FeedbackStats {count} {average} />
   <FeedbackList feedback={feedback}/>
 
 </main>
