@@ -5,6 +5,9 @@
  
   import Home from "@/components/Home.svelte";
   import { fade } from "svelte/transition";
+import Box from "./components/Box.svelte";
+import Button from "./components/Button.svelte";
+import FeedbackForm from "./components/FeedbackForm.svelte";
   import FeedbackList from "./components/FeedbackList.svelte";
   import FeedbackStats from  "./components/FeedbackStats.svelte"
 
@@ -29,15 +32,22 @@
 
 $: count = feedback.length
 $: average = feedback.reduce((a, {rating}) => a + rating, 0 / feedback.length)
+
+
+
+const addFeedback = (e) => {
+  const newFeedback = e.detail
+  feedback = [newFeedback, ...feedback]
+}
+
+
 </script>
-
-
-
-
 
 <main transition:fade>
   <Home {name} />
 
+
+  <FeedbackForm on:add-feedback={addFeedback} />
   <FeedbackStats {count} {average} />
   <FeedbackList feedback={feedback}/>
 

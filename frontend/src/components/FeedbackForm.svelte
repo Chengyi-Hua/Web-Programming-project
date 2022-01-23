@@ -37,12 +37,12 @@
   
   <Card>
     <header>
-      <h2>How are you feeling today?</h2>
+      <h2>What's your Problem and how you're feeling today?</h2>
     </header>
   <form on:submit|preventDefault={handleSubmit}>
     <RatingSelect on:rating-select={handleSelect} />
     <div class="input-group">
-      <input type="text" on:input={handleInput} bind:value = {text} placeholder="Tell us something that keeps you coming back">
+      <input type="text" on:input={handleInput} bind:value = {text} placeholder="Tell us what keeps you awake">
       <Button disabled={btnDisabled} type="submit">Send</Button>
     </div>
     {#if message}
