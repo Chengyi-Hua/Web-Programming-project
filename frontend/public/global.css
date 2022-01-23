@@ -68,8 +68,3 @@ button:not(:disabled):active {
 button:focus {
   border-color: #666;
 }
-
-.container {
-  max-width: 768px;
-  margin: 100px auto;
-}

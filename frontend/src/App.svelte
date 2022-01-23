@@ -3,53 +3,21 @@
  // This is a svelte component, - the root component
 
  
-  import Home from "@/components/Home.svelte";
-  import { fade } from "svelte/transition";
-import Box from "./components/Box.svelte";
-import Button from "./components/Button.svelte";
-import FeedbackForm from "./components/FeedbackForm.svelte";
-  import FeedbackList from "./components/FeedbackList.svelte";
-  import FeedbackStats from  "./components/FeedbackStats.svelte"
+  import Home from "@/components/Home.svelte"
+  import { fade } from "svelte/transition"
+  import FeedbackForm from './components/FeedbackForm.svelte'
+	import FeedbackList from './components/FeedbackList.svelte'
+	import FeedbackStats from './components/FeedbackStats.svelte'
 
   let name = "JOY";
-  let feedback = [
-  {
-    id: 1,
-    rating: 3,
-    text:"Meine Ex hat Schluss gemacht. Was soll ich tun?",
-  },
-  {
-    id: 2,
-    rating: 8,
-    text:"Ich habe im Lotto gewonnen, weiß aber nicht, welches NFT ich mir kaufen soll",
-  },
-  {
-    id: 3,
-    rating: 4,
-    text:"Ich wurde verhaftet. Gibt es hier auch gute Anwälte?",
-  }
-]
-
-$: count = feedback.length
-$: average = feedback.reduce((a, {rating}) => a + rating, 0 / feedback.length)
-
-
-
-const addFeedback = (e) => {
-  const newFeedback = e.detail
-  feedback = [newFeedback, ...feedback]
-}
-
-
+  
 </script>
 
 <main transition:fade>
   <Home {name} />
-
-
-  <FeedbackForm on:add-feedback={addFeedback} />
-  <FeedbackStats {count} {average} />
-  <FeedbackList feedback={feedback}/>
+  <FeedbackForm />
+	<FeedbackStats />
+	<FeedbackList />
 
 </main>
 
