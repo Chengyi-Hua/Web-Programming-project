@@ -44,9 +44,9 @@
 <style>
   main {
     text-align: center;
-    padding: 1em;
-    max-width: 240px;
-    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 768px;
+    margin: 100px auto;
     color: #ffffff;
   }
 
