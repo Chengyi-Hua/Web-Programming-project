@@ -8,6 +8,7 @@ body,
 
 body {
   color: #333;
+  background-image: url(https://images.pexels.com/photos/1405773/pexels-photo-1405773.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) ;
   margin: 0;
   padding: 8px;
   box-sizing: border-box;

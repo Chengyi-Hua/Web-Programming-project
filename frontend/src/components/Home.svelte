@@ -55,7 +55,7 @@
 <div class="superStyleSuperGeil">
   <h1> {name}  </h1>
   <Box>
-  <h3>- stellt eine Frage oder hinterlasse ein Kommentar - </h3>
+  <h3>- Stellt eine Frage oder hinterlasst ein Kommentar - </h3>
   {formatter.format($time)}
   </Box>
   <p><br></p>
@@ -64,7 +64,7 @@
   <input
     type="text"
     bind:value={inputValue}
-    placeholder="geben sie ihr thema ein"
+    placeholder="Geben Sie ihr Thema ein"
   />
 
   <button on:click={handleClick}> Send </button>

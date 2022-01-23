@@ -5,9 +5,27 @@
  
   import Home from "@/components/Home.svelte";
   import { fade } from "svelte/transition";
+  import FeedbackList from "./components/FeedbackList.svelte";
   
 
   let name = "JOY";
+  let feedback = [
+  {
+    id: 1,
+    rating: 3,
+    text:"Meine Ex hat Schluss gemacht. Was soll ich tun?",
+  },
+  {
+    id: 2,
+    rating: 8,
+    text:"Ich habe im Lotto gewonnen, weiß aber nicht, welches NFT ich mir kaufen soll",
+  },
+  {
+    id: 3,
+    rating: 4,
+    text:"Ich wurde verhaftet. Gibt es hier auch gute Anwälte?",
+  }
+]
 
 </script>
 
@@ -17,6 +35,10 @@
 
 <main transition:fade>
   <Home {name} />
+
+
+  <FeedbackList feedback={feedback}/>
+
 </main>
 
 <style>
