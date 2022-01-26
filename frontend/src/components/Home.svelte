@@ -7,23 +7,14 @@
   export let name = "JOY";
   let inputValue;
   let response;
-  let category;
-
-
-
-
-
-
+ 
   async function handleClick() {
+    // Analyse input and fetch from link based on category 
     // const result = await Request.get("http://localhost:3004/gibmirdieloesung");
     response = await (
       await fetch("http://localhost:3004/problems/stress")
     ).json();
   }
-
-
-
-
 
   const rows =[
     {BEZIEHUNG: 'Ehe', MOTIVATION: 'Liebe', ZUFALL: 'Name'},
@@ -50,10 +41,6 @@
 	});
 </script>
 
-
-
-
-
 <div class="superStyleSuperGeil">
   <h1> {name}  </h1>
   <Box>
@@ -68,11 +55,6 @@
     bind:value={inputValue}
     placeholder="Geben Sie ihr Thema ein"
   />
-
-  <script>
-    // Analyse inputValue and return on of the categories as category
-
-  </script>
 
   <button on:click={handleClick}> Send </button>
   <br>
