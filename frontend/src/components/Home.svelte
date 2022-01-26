@@ -7,7 +7,7 @@
   export let name = "JOY";
   let inputValue;
   let response;
-  let category;
+
 
 
 
@@ -15,21 +15,18 @@
 
 
   async function handleClick() {
-    // const result = await Request.get("http://localhost:3004/gibmirdieloesung");
     response = await (
-      await fetch("http://localhost:3004/problems/stress")
+      await fetch("http://localhost:3004/problems/familie")
     ).json();
   }
 
-
+  
 
 
 
   const rows =[
-    {BEZIEHUNG: 'Ehe', MOTIVATION: 'Liebe', ZUFALL: 'Name'},
-    {BEZIEHUNG: 'Crash', MOTIVATION: 'Sport', ZUFALL: 'Nummer'},
-    {BEZIEHUNG: 'Freunde', MOTIVATION: 'Arbeit', ZUFALL: 'Fakten'},
-    {BEZIEHUNG: 'Familie', MOTIVATION: 'Schule', ZUFALL: 'Glückskekse'},
+    {BEZIEHUNG: 'Familie', MOTIVATION: 'Sport', EMOTIONEN: 'Stress'},
+    {BEZIEHUNG: 'Freunde', MOTIVATION: 'Lernen', EMOTIONEN: 'Trauer'},
   ];
 
   const columns = Object.keys(rows[0]).map((key) => {
@@ -69,10 +66,7 @@
     placeholder="Geben Sie ihr Thema ein"
   />
 
-  <script>
-    // Analyse inputValue and return on of the categories as category
 
-  </script>
 
   <button on:click={handleClick}> Send </button>
   <br>
