@@ -3,7 +3,7 @@ import { opineCors } from "https://deno.land/x/cors/mod.ts";
 
 const stress = 
 ["relax, take it easy",
-"take a brake",
+"take a brake, eat a KitKat",
 "go on holiday"]
 
 const trauer = 
@@ -12,23 +12,23 @@ const trauer =
 "try weed"]
 
 const sport = 
-["mach mehr sport",
+["Mach mehr Sport",
 "Krafttraining hilf deinem Body-Image",
-"auch kleine Vorschritte sind Vortschritte"]
+"Auch kleine Fortschritte sind Fortschritte"]
 
 const lernen = 
-["Setze dir dein Ziel vor augen",
+["Setze dir deine Ziele vor Augen",
 "Früh aufstehen hilft",
-"nicht alles auf den letzten Drücker"]
+"Nicht alles auf den letzten Drücker lernen"]
 
 const familie = 
 ["Ruf deine Eltern an",
 "Familie sind die wahren OGs",
-"Versuche zur verstehen warum die Karen in deiner Familie so ist"]
+"Versuche zu verstehen, warum die Karen in deiner Familie so eine Karen ist"]
 
 const freunde = 
 ["call your friends to ckeck up on them",
-"Nur weil man noch snapt heißt das nicht das man noch in Kontakt ist",
+"Nur weil man noch snapt, heißt das nicht, dass man noch in Kontakt ist",
 "love your friends"]
 
 const app = opine();
