@@ -44,12 +44,12 @@
 
 <Card>
   <header>
-    <h2>Ask Dr. Sommer for help: What's your question and how are you feeling?</h2>
+    <h2>Frag Dr. Sommer um Hilfe: Wobei benötigst du einen Rat und wie fühlst du dich?</h2>
   </header>
 <form on:submit|preventDefault={handleSubmit}>
   <RatingSelect on:rating-select={handleSelect} />
   <div class="input-group">
-    <input type="text" on:input={handleInput} bind:value = {text} placeholder="Tell us what keeps you awake">
+    <input type="text" on:input={handleInput} bind:value = {text} placeholder="Was bereitet dir schlaflose Nächte?">
     <Button disabled={btnDisabled} type="submit">Send</Button>
   </div>
   {#if message}

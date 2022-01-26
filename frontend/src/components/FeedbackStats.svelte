@@ -4,8 +4,8 @@
 </script>
 
 <div class="feedback-stats">
-  <h4>{count} Reviews</h4>
-  <h4>Feeling Average: {average}</h4>
+  <h4>{count} unbeantwortete Fragen</h4>
+  <h4>Durschnittliche Gefühlslage: {average}</h4>
 </div>
 
 <style>
