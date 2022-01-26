@@ -1,35 +1,37 @@
 # Web-Programming-project
 DHBW Semester 3. Webapp 
 
-## How to use
-### Step 1: Clone repository
+## Verwendung
+### Schritt 1: Repository klonen 
+Windows/Mac:
 ```bash
 git clone https://github.com/Chengyi-Hua/Web-Programming-project.git
 ```
-### Step 2: Install Deno
-for MacOS use Homebrew
+### Schritt 2: Deno Installieren
+
 ```bash
-brew install deno
+Für MacOS (verwende  Homebrew): brew install deno
+Für Windows (verwende Powershell): iwr https://deno.land/install.ps1 -useb | iex
 ```
-### Step 3: cd to the repository
+### Schritt 3: Pathkontrolle 
 ```bash
 cd /Users/<user>/Web-Programming-project
 ```
-### Step 4: install necessary dependencies
+### Schritt 4: Dependencies installieren
 ```bash
 deno run --allow-run --allow-read https://deno.land/x/snel/install.ts
 ```
-### Step 5: cd backend and run server.ts
+### Schritt 5: cd backend und starte Server
 ```bash
 cd backend
 deno run --allow-all server.ts
 ```
-### Step 6: open new terminal, cd to frontend and run with trex
+### Schritt 6: In Terminal das frontend starten
 ```bash
 cd /Users/<user>/Web-Programming-project/frontend
 trex run start
 ```
-make sure trex and snel are added to your PATH
+Information: stelle sicher, dass "trex" und "snel" in der Path sind. z.B. für MacOS
 ```bash
 path+=('/Users/<user>/.deno/bin')
 ```  
@@ -59,7 +61,7 @@ zentrale (cloudbasierte), persistente Datenspeicherung
 
 
 ## Web-Programming-project
-Da es momentan sehr schwierig ist, Termine bei Psychologen zu bekommen, wäre unserer Meinung nach eine sinnvolle Ergänzung zur App eine Webschnittstelle, mit der die User mit Psychologen (Personen mit entsprechenden Wissensstand) chatten können und sich in Gruppen austauschen können. Zukünftig können wir uns auch vorstellen AI-Chat-Bots als psychologen einzusetzen.
+Da es momentan sehr schwierig ist, Termine bei Psychologen zu bekommen, wäre unserer Meinung nach eine sinnvolle Ergänzung zur App eine Webschnittstelle, mit der User Psychologen (Personen mit entsprechenden Wissensstand) Fragen hinterlassen können und sich Ratschläge zu wichtigen Themen geben lassen können. Zukünftig können wir uns auch vorstellen AI-Chat-Bots als psychologen einzusetzen.
 
 
 ## Landingpage: html, css, js efforts
@@ -84,6 +86,9 @@ Lernmaterial:
 - Unterrichtseinheiten 
 - Denoblog: https://deno.com/blog für aktuelle News
 
+Lernmaterial für TypeScript
+- https://www.tutorialsteacher.com/typescript/typescript-if-else
+
 Problem 1: Download. für Windows habe ich in Powershell "iwr https://deno.land/x/install/install.ps1 -useb | iex" eingegeben und es hat nicht geklappt. 
 Lösung: Powershell ISE als administrator öffnen und "iwr https://deno.land/x/install/install.ps1 -useb | iex" eingeben - hat geklappt! :)
 
@@ -92,11 +97,12 @@ nur wenn man das runtergeladen hat, kann man mit "trex run start" die gewünscht
 
 Problem 2.2: Es muss "https://deno.land/x/cors/mod.ts" modul installiert werden. Ebenso wie "https://deno.land/x/opine@2.1.1/mod"
 
-Stand 19.01.2022: Frage? kann nun die Webapp aufrufen, jedoch gibt es noch Probleme. dann die Rückgabe aus Backend nicht mehr bekommen. Wisst ihr noch wie genau wir da vorgegangen sind? Ich meine Code-Basis ist da gleiche, gab es Befehle in der Console, die ich verpasst habe? 
+Stand 19.01.2022: Frage? kann nun die Webapp aufrufen, jedoch gibt es noch Probleme. dann die Rückgabe aus Backend nicht mehr bekommen. Wisst ihr noch wie genau wir da vorgegangen sind? Ich meine Code-Basis ist da gleiche, gab es Befehle in der Console, die ich verpasst habe? - gelöst. Server muss mit deno run --allow-all server.ts gestartet werden
 
 
 ## Svelte Einarbeitung
-How to generate a svelte app:
+Grundlagen und Codebeispiele:
 - https://www.youtube.com/watch?v=lnpdn2rE2N8
+- https://svelte.dev/tutorial/basics
 - 
 
