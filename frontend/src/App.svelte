@@ -3,11 +3,11 @@
  // This is a svelte component, - the root component
 
  
-  import Home from "@/components/Home.svelte"
-  import { fade } from "svelte/transition"
-  import FeedbackForm from './components/FeedbackForm.svelte'
-	import FeedbackList from './components/FeedbackList.svelte'
-	import FeedbackStats from './components/FeedbackStats.svelte'
+  import Home from "@/components/Home.svelte";
+  import { fade } from "svelte/transition";
+  import FeedbackForm from './components/FeedbackForm.svelte';
+	import FeedbackList from './components/FeedbackList.svelte';
+	import FeedbackStats from './components/FeedbackStats.svelte';
 
   let name = "JOY";
   

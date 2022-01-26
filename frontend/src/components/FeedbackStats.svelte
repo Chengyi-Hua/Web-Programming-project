@@ -1,5 +1,5 @@
 <script>
-    import {Kummerkasten} from '../stores'
+    import {Kummerkasten} from '../stores';
     $: count = $Kummerkasten.length
     $: average = $Kummerkasten.reduce((a, {rating}) => a + rating, 0) / $Kummerkasten.length
   </script>

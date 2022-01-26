@@ -1,7 +1,8 @@
 <script>
-    import {Kummerkasten} from '../stores'
-    import Card from './Card.svelte'
-    export let item
+    import {Kummerkasten} from '../stores';
+    import Card from './Card.svelte';
+    export let item;
+
     const handleDelete = (itemId) => {
       Kummerkasten.update((currentFeedback) => {
         return currentFeedback.filter(item => item.id != itemId)

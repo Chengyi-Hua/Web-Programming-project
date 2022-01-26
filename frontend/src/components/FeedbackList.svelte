@@ -1,7 +1,7 @@
 <script>
-    import {Kummerkasten} from '../stores'
-    import { fade, scale } from 'svelte/transition'
-    import FeedbackItem from './FeedbackItem.svelte'
+    import {Kummerkasten} from '../stores';
+    import { fade, scale } from 'svelte/transition';
+    import FeedbackItem from './FeedbackItem.svelte';
   </script>
   
   {#each $Kummerkasten as fb (fb.id)}

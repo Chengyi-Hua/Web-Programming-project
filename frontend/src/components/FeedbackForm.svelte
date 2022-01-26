@@ -1,15 +1,17 @@
 <script>
-    import {v4 as uuidv4} from 'uuid'
-    import {Kummerkasten} from '../stores'
-    import Card from './Card.svelte'
-    import Button from './Button.svelte'
-    import RatingSelect from './RatingSelect.svelte'
-    let text = ''
-    let rating = 10
-    let btnDisabled = true
-    let min = 10
-    let message
-    const handleSelect = e => rating = e.detail
+
+    import {v4 as uuidv4} from 'uuid';
+    import {Kummerkasten} from '../stores';
+    import Card from './Card.svelte';
+    import Button from './Button.svelte';
+    import RatingSelect from './RatingSelect.svelte';
+    let text = '';
+    let rating = 10;
+    let btnDisabled = true;
+    let min = 10;
+    let message;
+
+    const handleSelect = e => rating = e.detail;
     const handleInput = () => {
       if(text.trim().length <= min) {
         message = `Text must be at least ${min} characters`
