@@ -3,8 +3,13 @@ import { opineCors } from "https://deno.land/x/cors/mod.ts";
 const app = opine();
 app.use(opineCors())
 
-app.get("/gibmirdieloesung", function (req, res) {
-    res.send({ answer: "Die Lösung ist: Take it easy & relax & mach bissle sport" });
+app.get("/problems/:typeofproblem", function (req, res) {
+    if (req.params.typeofproblem == "stress"){
+        res.send({ answer: "Die Lösung ist: Take it easy & relax & mach bissle weniger stress" })
+    } else {
+        res.send({answer: "mach was anderes"})
+    }
+    
 });
 
 app.listen(
