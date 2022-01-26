@@ -44,7 +44,7 @@
 
 <Card>
   <header>
-    <h2>Frag Dr. Sommer um Hilfe: Wobei benötigst du einen Rat und wie fühlst du dich?</h2>
+    <h2>Frag Prof. Dr. Sommer um Hilfe: Wobei benötigst du einen Rat und wie fühlst du dich?</h2>
   </header>
 <form on:submit|preventDefault={handleSubmit}>
   <RatingSelect on:rating-select={handleSelect} />
