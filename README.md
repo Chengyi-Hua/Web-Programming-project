@@ -109,7 +109,7 @@ Problem 2.2: Es muss "https://deno.land/x/cors/mod.ts" modul installiert werden.
 Stand 19.01.2022: Frage? kann nun die Webapp aufrufen, jedoch gibt es noch Probleme. dann die Rückgabe aus Backend nicht mehr bekommen. Wisst ihr noch wie genau wir da vorgegangen sind? Ich meine Code-Basis ist da gleiche, gab es Befehle in der Console, die ich verpasst habe? - gelöst. Server muss mit deno run --allow-all server.ts gestartet werden
 
 ## Veröffentlichung von Deno Modulen
-https://deno.land/x/random_string@1.0
+https://deno.land/x/random_string@1.0.1
 Es soll ein Satz (String) aus eine Reihe von Sätzen zufällig zurückgegeben werden.
 
 Lernmaterial:
