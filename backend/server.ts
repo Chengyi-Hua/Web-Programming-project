@@ -1,6 +1,7 @@
 import { opine } from "https://deno.land/x/opine@2.1.1/mod.ts";
 import { opineCors } from "https://deno.land/x/cors/mod.ts";
 const app = opine();
+const StressList = ["A","B","C"];
 app.use(opineCors())
 
 app.get("/problems/:typeofproblem", function (req, res) {
