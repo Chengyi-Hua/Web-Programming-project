@@ -11,9 +11,32 @@
   async function handleClick() {
     // Analyse input and fetch from link based on category 
     // const result = await Request.get("http://localhost:3004/gibmirdieloesung");
-    response = await (
-      await fetch("http://localhost:3004/problems/stress")
-    ).json();
+    if (inputValue == "Stress") {
+      response = await (
+        await fetch("http://localhost:3004/problems/stress")
+      ).json();} 
+    else if (inputValue == "Trauer") {
+      response = await (
+        await fetch("http://localhost:3004/problems/trauer")
+      ).json();}
+    else if (inputValue == "Sport") {
+      response = await (
+        await fetch("http://localhost:3004/problems/sport")
+      ).json();}
+    else if (inputValue == "Lernen") {
+      response = await (
+        await fetch("http://localhost:3004/problems/lernen")
+      ).json();}
+    else if (inputValue == "Familie") {
+      response = await (
+        await fetch("http://localhost:3004/problems/familie")
+      ).json();}
+    else if (inputValue == "Freunde") {
+      response = await (
+        await fetch("http://localhost:3004/problems/freunde")
+      ).json();
+    }
+    
   }
 
   const rows =[
