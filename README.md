@@ -65,6 +65,9 @@ Da es momentan sehr schwierig ist, Termine bei Psychologen zu bekommen, wäre un
 
 
 ## Landingpage: html, css, js efforts
+
+- https://joy-landingpage-design-3969.bss.design
+
 Eine Landingpage als Übersichts-onepager für JOY wird erstellt. Dabei wird keine Links oder Weiterleitende Features wie zum Beispiel Log-in oder Social Media hinterlegt. 
 Dabei haben wir beschlossen die Grunddatei für Fronts; Farben; Boxgrößen aus Boostrape Studio zu nehmen.  
 
@@ -99,10 +102,19 @@ Problem 2.2: Es muss "https://deno.land/x/cors/mod.ts" modul installiert werden.
 
 Stand 19.01.2022: Frage? kann nun die Webapp aufrufen, jedoch gibt es noch Probleme. dann die Rückgabe aus Backend nicht mehr bekommen. Wisst ihr noch wie genau wir da vorgegangen sind? Ich meine Code-Basis ist da gleiche, gab es Befehle in der Console, die ich verpasst habe? - gelöst. Server muss mit deno run --allow-all server.ts gestartet werden
 
+### Veröffentlichung von Deno Modulen
+https://deno.land/x/random_string@1.0
+Es soll ein Satz (String) aus eine Reihe von Sätzen zufällig zurückgegeben werden.
+
+Lernmaterial:
+- Unterrichtseinheiten
+- https://www.youtube.com/watch?v=eN3OIx7KQFw&t=334s
 
 ## Svelte Einarbeitung
 Grundlagen und Codebeispiele:
 - https://www.youtube.com/watch?v=lnpdn2rE2N8
 - https://svelte.dev/tutorial/basics
-- 
+
+
+
 
