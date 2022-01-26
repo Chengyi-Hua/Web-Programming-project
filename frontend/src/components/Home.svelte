@@ -17,10 +17,8 @@
   }
 
   const rows =[
-    {BEZIEHUNG: 'Ehe', MOTIVATION: 'Liebe', ZUFALL: 'Name'},
-    {BEZIEHUNG: 'Crash', MOTIVATION: 'Sport', ZUFALL: 'Nummer'},
-    {BEZIEHUNG: 'Freunde', MOTIVATION: 'Arbeit', ZUFALL: 'Fakten'},
-    {BEZIEHUNG: 'Familie', MOTIVATION: 'Schule', ZUFALL: 'Glückskekse'},
+    {BEZIEHUNG: 'Familie', MOTIVATION: 'Sport', EMOTIONEN: 'Stress'},
+    {BEZIEHUNG: 'Freunde', MOTIVATION: 'Lernen', EMOTIONEN: 'Trauer'},
   ];
 
   const columns = Object.keys(rows[0]).map((key) => {
