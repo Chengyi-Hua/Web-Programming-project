@@ -7,6 +7,8 @@
   export let name = "JOY";
   let inputValue;
   let response;
+  let category;
+
 
 
 
@@ -66,6 +68,11 @@
     bind:value={inputValue}
     placeholder="Geben Sie ihr Thema ein"
   />
+
+  <script>
+    // Analyse inputValue and return on of the categories as category
+
+  </script>
 
   <button on:click={handleClick}> Send </button>
   <br>
