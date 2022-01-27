@@ -3,7 +3,7 @@ import { opineCors } from "https://deno.land/x/cors/mod.ts";
 
 const stress = 
 ["relax, take it easy",
-"take a brake, eat a KitKat",
+"take a break, eat a KitKat",
 "go on holiday"]
 
 const trauer = 
