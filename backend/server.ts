@@ -4,12 +4,15 @@ import { opineCors } from "https://deno.land/x/cors/mod.ts";
 const stress = 
 ["relax, take it easy",
 "take a break, eat a KitKat",
-"go on holiday"]
+"go on holiday",
+"Exercise regularly",
+"Turn off your phone sometimes"]
 
 const trauer = 
 ["don't worry be happy",
 "go to your happy place",
-"try weed"]
+"try weed",
+"Seek help if you think you may be dealing with depression"]
 
 const sport = 
 ["Mach mehr Sport",
@@ -35,8 +38,8 @@ const app = opine();
 app.use(opineCors())
 
 app.get("/problems/:typeofproblem", function (req, res) {
-    let emotion = eval(req.params.typeofproblem)
-    let index = Math.floor(Math.random()*3)
+    const emotion = eval(req.params.typeofproblem)
+    const index = Math.floor(Math.random() * Object.keys(emotion).length)
 
     console.log(typeof(emotion))
     console.log(emotion)
