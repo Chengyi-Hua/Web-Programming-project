@@ -83,7 +83,7 @@
     cursor: pointer;
   }
   .rating li:hover {
-    background: #ff6a95;
+    background: #12312E;
     color: #fff;
   }
   /* Make actual radio select invisible */
@@ -92,7 +92,7 @@
   }
   /* Use the sibling select */
   [type='radio']:checked ~ label {
-    background: #ff6a95;
+    background: #12312E;
     color: #fff;
   }
 </style>

@@ -13,6 +13,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: hotpink;
+    color: #12312E;
   }
 </style>

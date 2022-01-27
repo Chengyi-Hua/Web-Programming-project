@@ -20,10 +20,10 @@
       cursor: pointer;
     }
     .primary {
-      background-color: #202142;
+      background-color: #12312E;
     }
     .secondary {
-      background: #ff6a95;
+      background: #12312E;
     }
     button:hover {
       transform: scale(0.98);

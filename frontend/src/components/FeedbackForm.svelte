@@ -94,6 +94,6 @@
   .message{
     padding-top: 10px;
     text-align: center;
-    color: rebeccapurple;
+    color: #12312E;
   }
 </style>

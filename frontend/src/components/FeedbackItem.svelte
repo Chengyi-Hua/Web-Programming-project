@@ -27,7 +27,7 @@
     left: -10px;
     width: 50px;
     height: 50px;
-    background: #ff6a95;
+    background: #12312E;
     color: #fff;
     border: 1px #eee solid;
     border-radius: 50%;
