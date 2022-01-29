@@ -66,7 +66,11 @@ Da es momentan sehr schwierig ist, Termine bei Psychologen zu bekommen, wäre un
 - Demo-Video: 
 
 
-https://user-images.githubusercontent.com/96745479/151226201-70f1ef2f-8c4f-4610-92a3-13aeab0f4a6b.mov
+
+
+https://user-images.githubusercontent.com/96745479/151675120-ae063f60-616b-482e-bb27-43f03638c5bc.mov
+
+
 
 
 
