@@ -2,17 +2,17 @@ import { opine } from "https://deno.land/x/opine@2.1.1/mod.ts";
 import { opineCors } from "https://deno.land/x/cors/mod.ts";
 
 const stress = 
-["relax, take it easy",
-"take a break, eat a KitKat",
-"go on holiday",
-"Exercise regularly",
-"Turn off your phone sometimes"]
+["Relax, take it easy",
+"Take a break, eat a KitKat",
+"Urlaub?",
+"Mach mehr Sport",
+"Manchmal muss man das Handy ausmachen"]
 
 const trauer = 
-["don't worry be happy",
-"go to your happy place",
-"try weed",
-"Seek help if you think you may be dealing with depression"]
+["Don't worry be happy",
+"Alles was in 5 Jahre irrelevant ist, ist nicht wichtig",
+"Try weed",
+"Nehme dir Zeit :)"]
 
 const sport = 
 ["Mach mehr Sport",
@@ -30,7 +30,7 @@ const familie =
 "Versuche zu verstehen, warum die Karen in deiner Familie so eine Karen ist"]
 
 const freunde = 
-["call your friends to ckeck up on them",
+["Rufe sie mal an, redet einfach offen über Themen :)",
 "Nur weil man noch snapt, heißt das nicht, dass man noch in Kontakt ist",
 "love your friends"]
 
