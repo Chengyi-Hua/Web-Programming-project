@@ -24,7 +24,7 @@ deno run --allow-run --allow-read https://deno.land/x/snel/install.ts
 ### Schritt 5: cd backend und starte Server
 ```bash
 cd backend
-deno run --allow-all server.ts
+deno run --allow-net --allow-read server.ts
 ```
 ### Schritt 6: In Terminal das frontend starten
 ```bash
