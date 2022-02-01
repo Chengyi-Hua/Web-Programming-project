@@ -65,7 +65,7 @@
 <div class="superStyleSuperGeil">
   <h1> {name}  </h1>
   <Box>
-  <h3>- Stellt eine Frage oder hinterlasst ein Kommentar - </h3>
+  <h3>- Schnelle Antwort? oder hinterlasse deine Frage! - </h3>
   {formatter.format($time)}
   </Box>
   <p><br></p>
