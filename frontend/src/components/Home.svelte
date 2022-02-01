@@ -34,6 +34,10 @@
     else if (inputValue == "Freunde") {
       response = await (
         await fetch("http://localhost:3004/problems/freunde")
+      ).json();}
+    else{
+      response = await (
+        await fetch("http://localhost:3004/problems/other")
       ).json();
     }
     

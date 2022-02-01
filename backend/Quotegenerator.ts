@@ -27,6 +27,11 @@ emotions.set("freunde",
 ["call your friends to ckeck up on them",
 "Nur weil man noch snapt, heißt das nicht, dass man noch in Kontakt ist",
 "love your friends"])
+emotions.set("other",
+["write a journal to keep track of your emotions",
+"try out our JOY app for help and guidance through your mental health journey. Available for download on the App Store",
+"seek out professional help from a therapist",
+"talk to close friends or relatives about your problems"])
 
 export function generateQuote(emotion: string, emotionMap = emotions){
     const emotionList = emotionMap.get(emotion)!
