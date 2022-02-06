@@ -61,13 +61,13 @@ path+=('/Users/<user>/.deno/bin')
 
 ## Mögliche Hürden
 Problem 1: Das Installieren. für Windows (Powershell) "iwr https://deno.land/x/install/install.ps1 -useb | iex" funktioniert nicht.
-Lösung: Powershell ISE als administrator öffnen und "iwr https://deno.land/x/install/install.ps1 -useb | iex" ausführen.
+- Lösung: Powershell ISE als administrator öffnen und "iwr https://deno.land/x/install/install.ps1 -useb | iex" ausführen.
 
 Problem 2: "trex run start" funktioniert nicht.
-Lösung: Um damit arbeiten zu können, führe "deno run --allow-run --allow-read https://deno.land/x/snel/install.ts" aus.
+- Lösung: Um damit arbeiten zu können, führe "deno run --allow-run --allow-read https://deno.land/x/snel/install.ts" aus.
 Nun kann man mit "trex run start" die Web app starten. (wenn man im richtigen Pfad ist)
 
 Problem 3: Module fehlen
-Lösung: "https://deno.land/x/cors/mod.ts" und "https://deno.land/x/opine@2.1.1/mod" installieren
+- Lösung: "https://deno.land/x/cors" und "https://deno.land/x/opine" installieren
 
 
