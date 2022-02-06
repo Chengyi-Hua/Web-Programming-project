@@ -4,7 +4,9 @@
   import SvelteTable from "./svelte-table.svelte";
   import { time } from './Uhr.js';
 
+
   export let name = "JOY";
+
   let inputValue;
   let response;
  
