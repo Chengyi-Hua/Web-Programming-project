@@ -13,14 +13,14 @@ https://user-images.githubusercontent.com/96745479/151675120-ae063f60-616b-482e-
 
 
 
-## Landingpage für JOY IOS-APP: html, css, js efforts (wird im Repo als "Fallstudie-Infoseite" bezeichnet)
+## Html, CSS, JS efforts (im Repo als "Fallstudie-Infoseite" bezeichnet)
 
 - https://joy-landingpage-design-3969.bss.design
 
 Für das Kennenlernen und Üben mit Web-app Programming wurde eine Landingpage für JOY (IOS Version) erstellt. Dabei wurde keine Links wie zum Beispiel Log-in oder Social Media hinterlegt.   
 
 
-# Verwendung für lokales setup
+## Verwendung für lokales setup
 ### Schritt 1: Repository klonen 
 Windows/Mac:
 ```bash
@@ -89,7 +89,7 @@ Grundlagen und Codebeispiele:
 - https://svelte.dev/tutorial/basics
 
 
-# weitere Einarbeitung in Webprogramming
+# Weitere Einarbeitung in Webprogramming
 
 In der Fallstudie wurde eine App entwickelt, die Menschen mit einem stressigen Alltag oder Leuten, die sich generell mehr mit ihrer mentalen Gesundheit beschäftigen möchten, einen persönlichen mobilen psychologen bereitstellt. Dieser bietet zahlreiche Funktionen, beispielsweise kann man sich durch tägliche Quotes motivieren und aufmuntern lassen, Tagebuch führen und durch tägliche Aufgaben sein Selbstbewusstsein erweitern und sich persönlich weiterentwickeln.
 Dazu erstellten wir eine Landingpage.
