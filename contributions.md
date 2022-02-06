@@ -7,7 +7,7 @@
 - https://stackoverflow.com/questions/70799905/permissiondenied-zugriff-verweigert-os-error-5-when-installing-snel-via-deno/70813303#70813303
 
 ### Probleme mit Backend: Warum es nicht die geplante Antwort zurückgibt 
-- https://stackoverflow.com/questions/70864437/give-back-answers-from-backend-based-on-inputs-from-frontend bereits gelöst, teilweise mithilfe von: https://stackoverflow.com/questions/63205191/express-route-parameters-vs-http-query-parameters
+- https://stackoverflow.com/questions/70864437/give-back-answers-from-backend-based-on-inputs-from-frontend ---- teilweise mithilfe von: https://stackoverflow.com/questions/63205191/express-route-parameters-vs-http-query-parameters gelöst
 
 # Deno Module: Übungen und Kennenlernen
 https://github.com/Chengyi-Hua/Deno_Module_Ausprobieren
