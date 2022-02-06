@@ -20,7 +20,7 @@ https://user-images.githubusercontent.com/96745479/151675120-ae063f60-616b-482e-
 Für das Kennenlernen und Üben mit Web-app Programming wurde eine Landingpage für JOY (IOS Version) erstellt. Dabei wurde keine Links wie zum Beispiel Log-in oder Social Media hinterlegt.   
 
 
-## Verwendung für lokales setup
+# Verwendung für lokales setup
 ### Schritt 1: Repository klonen 
 Windows/Mac:
 ```bash
