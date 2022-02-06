@@ -25,7 +25,7 @@ Für das Kennenlernen und Üben mit Web-app Programming wurde eine Landingpage f
 
 # Verwendung für lokales setup
 - ### Schritt 1: Repository klonen 
-Windows/Mac:
+
 ```bash
 git clone https://github.com/Chengyi-Hua/Web-Programming-project.git
 ```
