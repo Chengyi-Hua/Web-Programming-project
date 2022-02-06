@@ -31,5 +31,5 @@ Lernmaterial:
 - Visual Studio code
 
 
--Pitch/Demo-video für IOS APP -JOY- :
+Pitch/Demo-video für IOS APP -JOY- :
 Link: https://www.youtube.com/watch?v=qd4YGj0H4Wg
