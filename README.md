@@ -13,7 +13,7 @@ https://user-images.githubusercontent.com/96745479/151675120-ae063f60-616b-482e-
 
 
 
-## Html, CSS, JS efforts (im Repo als "Fallstudie-Infoseite" bezeichnet)
+### Html, CSS, JS efforts (im Repo als "Fallstudie-Infoseite" bezeichnet)
 
 - https://joy-landingpage-design-3969.bss.design
 
@@ -21,31 +21,31 @@ Für das Kennenlernen und Üben mit Web-app Programming wurde eine Landingpage f
 
 
 # Verwendung für lokales setup
-### Schritt 1: Repository klonen 
+#### Schritt 1: Repository klonen 
 Windows/Mac:
 ```bash
 git clone https://github.com/Chengyi-Hua/Web-Programming-project.git
 ```
-### Schritt 2: Deno Installieren
+#### Schritt 2: Deno Installieren
 
 ```bash
 Für MacOS (verwende  Homebrew): brew install deno
 Für Windows (verwende Powershell): iwr https://deno.land/install.ps1 -useb | iex
 ```
-### Schritt 3: Pathkontrolle 
+#### Schritt 3: Pathkontrolle 
 ```bash
 cd /Users/<user>/Web-Programming-project
 ```
-### Schritt 4: Dependencies installieren
+#### Schritt 4: Dependencies installieren
 ```bash
 deno run --allow-run --allow-read https://deno.land/x/snel/install.ts
 ```
-### Schritt 5: cd backend und starte Server
+#### Schritt 5: cd backend und starte Server
 ```bash
 cd backend
 deno run --allow-all server.ts
 ```
-### Schritt 6: In Terminal das frontend starten
+#### Schritt 6: In Terminal das frontend starten
 ```bash
 cd /Users/<user>/Web-Programming-project/frontend
 trex run start
@@ -61,8 +61,6 @@ Lernmaterial:
 - Youtube
 - Unterrichtseinheiten 
 - Denoblog: https://deno.com/blog für aktuelle News
-
-Lernmaterial für TypeScript
 - https://www.tutorialsteacher.com/typescript/typescript-if-else
 
 ### Mögliche Hürden
