@@ -19,7 +19,7 @@ https://user-images.githubusercontent.com/96745479/151675120-ae063f60-616b-482e-
 
 - https://joy-landingpage-design-3969.bss.design
 
-Für das Kennenlernen und Üben mit Web-app Programming wurde eine Landingpage für JOY (IOS Version) erstellt. Dabei wurde keine Links wie zum Beispiel Log-in oder Social Media hinterlegt.   
+Für das Kennenlernen und Üben mit Web-app Programming wurde eine Landingpage für JOY (IOS Version) erstellt. Dabei werden keine Links wie zum Beispiel Log-in oder Social Media hinterlegt.   
 
 
 
