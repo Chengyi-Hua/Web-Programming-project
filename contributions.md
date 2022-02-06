@@ -12,10 +12,10 @@ ausprobiert haben wir:
 - https://deno.land/x/request
 - https://deno.land/x/injector
 - https://deno.land/x/distancecalculator  (Berechnet die Fluglinie, wäre es nicht auch cool, de Fahrtschrecke zu berechnen?:D, oder die durchschnittliche Stunden mit Zügen: Feature request: https://github.com/michael-spengler/distance-calculator/issues/3)
-- https://deno.land/x/opine@2.1.1/mod.ts (in Projekt)
-- https://deno.land/x/cors/mod.ts (in Projekt)
+- https://deno.land/x/opine (in Projekt)
+- https://deno.land/x/cors (in Projekt)
 
 ### Selbst veröffentlicht
-- https://deno.land/x/random_string@1.0.1 
+- https://deno.land/x/random_string
 
 
