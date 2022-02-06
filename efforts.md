@@ -4,14 +4,14 @@ Lernmaterial:
 - Youtube
 - Unterrichtseinheiten 
 - Denoblog: https://deno.com/blog für aktuelle News
-- https://www.tutorialsteacher.com/typescript/typescript-if-else
+- https://www.tutorialsteacher.com/typescript
 
-Lernmaterial für Deno-Mudul Veröffentlichung:
+Lernmaterial für Deno-Modul Veröffentlichung:
 - Unterrichtseinheiten
 - https://www.youtube.com/watch?v=eN3OIx7KQFw&t=334s
 
 # Svelte Einarbeitung/Efforts
-Grundlagen und Codebeispiele:
+Grundlagen und Beispiele:
 - https://www.youtube.com/watch?v=lnpdn2rE2N8
 - https://svelte.dev/tutorial/basics
 

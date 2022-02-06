@@ -1,6 +1,6 @@
 # Web-Programming-Projekt
 DHBW Mannheim - Semester.3
-- Einarbeitung/Efforts: https://github.com/Chengyi-Hua/Web-Programming-project/blob/main/Efforts.md
+- Einarbeitung/Efforts: https://github.com/Chengyi-Hua/Web-Programming-project/blob/main/efforts.md
 - Contribution: https://github.com/Chengyi-Hua/Web-Programming-project/blob/main/contributions.md
 
 Da es momentan sehr schwierig ist, Termine bei Psychologen zu bekommen, wäre unserer Meinung nach eine sinnvolle Ergänzung zur App (eine IOS-APP, entwickelt für die Fallstudie) eine Webschnittstelle, mit der User Psychologen (Personen mit entsprechenden Wissensstand) Fragen hinterlassen können und sich Ratschläge zu wichtigen Themen geben lassen können. Zukünftig können wir uns auch vorstellen AI-Chat-Bots als psychologen einzusetzen.
