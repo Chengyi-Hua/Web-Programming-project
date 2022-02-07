@@ -14,6 +14,7 @@ Lernmaterial für Deno-Modul Veröffentlichung:
 Grundlagen und Beispiele:
 - https://www.youtube.com/watch?v=lnpdn2rE2N8
 - https://svelte.dev/tutorial/basics
+- https://www.youtube.com/watch?v=3TVy6GdtNuQ&t=3212s
 
 
 # Weitere Einarbeitung in Web-Programmierung
