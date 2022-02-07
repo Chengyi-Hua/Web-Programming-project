@@ -6,10 +6,11 @@ DHBW Mannheim - Semester.3
 Da es momentan sehr schwierig ist, Termine bei Psychologen zu bekommen, wäre unserer Meinung nach eine sinnvolle Ergänzung zur App (eine IOS-APP, entwickelt für die Fallstudie) eine Webschnittstelle, mit der User Psychologen (Personen mit entsprechenden Wissensstand) Fragen hinterlassen können und sich Ratschläge zu wichtigen Themen geben lassen können. Zukünftig können wir uns auch vorstellen AI-Chat-Bots als psychologen einzusetzen.
 
 ## Deployment and hosting
+
 ### Backend deployment
 Der Server wurde mit Hilfe von [deno deploy](https://deno.com/deploy) deployed, welches auf das Repository zugreift und den Server nach einem Commit der [server.ts](/backend/server.ts) Datei automatisch aktualisiert. Der Server ist nun unter https://joy-backend.deno.dev/ erreichbar. 
 
-## Frontend deployment
+### Frontend deployment
 Die Website ist unter https://www.projekt.jan-ruedt.de/ erreichbar. 
 
 
@@ -24,7 +25,7 @@ https://user-images.githubusercontent.com/96745479/151675120-ae063f60-616b-482e-
 
 
 
-### Html, CSS, JS Efforts (im Repo als "Fallstudie-Infoseite" bezeichnet)
+## Einarbeitung in Html, CSS, JS durch Erstellung der Landingpage des Fallstudienprojektes (im Repo als "Fallstudie-Infoseite" bezeichnet)
 
 - https://joy-landingpage-design-3969.bss.design
 
@@ -32,7 +33,7 @@ Für das Kennenlernen und Üben mit Web-app Programming wurde eine Landingpage f
 
 
 
-# Verwendung für lokales setup
+## Verwendung für lokales setup
 - ### Schritt 1: Repository klonen 
 
 ```bash
