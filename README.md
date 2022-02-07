@@ -31,6 +31,7 @@ Für das Kennenlernen und Üben mit Web-app Programming wurde eine Landingpage f
 
 <br/>
 <br/>
+
 ## Verwendung für lokales setup
 - ### Schritt 1: Repository klonen 
 
