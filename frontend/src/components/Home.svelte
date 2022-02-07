@@ -13,31 +13,31 @@
     // const result = await Request.get("http://localhost:3004/gibmirdieloesung");
     if (inputValue == "Stress") {
       response = await (
-        await fetch("http://localhost:3004/problems/stress")
+        await fetch("https://whole-kingfisher-87.deno.dev/problems/stress")
       ).json();} 
     else if (inputValue == "Trauer") {
       response = await (
-        await fetch("http://localhost:3004/problems/trauer")
+        await fetch("https://whole-kingfisher-87.deno.dev/problems/trauer")
       ).json();}
     else if (inputValue == "Sport") {
       response = await (
-        await fetch("http://localhost:3004/problems/sport")
+        await fetch("https://whole-kingfisher-87.deno.dev/problems/sport")
       ).json();}
     else if (inputValue == "Lernen") {
       response = await (
-        await fetch("http://localhost:3004/problems/lernen")
+        await fetch("https://whole-kingfisher-87.deno.dev/problems/lernen")
       ).json();}
     else if (inputValue == "Familie") {
       response = await (
-        await fetch("http://localhost:3004/problems/familie")
+        await fetch("https://whole-kingfisher-87.deno.dev/problems/familie")
       ).json();}
     else if (inputValue == "Freunde") {
       response = await (
-        await fetch("http://localhost:3004/problems/freunde")
+        await fetch("https://whole-kingfisher-87.deno.dev/problems/freunde")
       ).json();}
     else{
       response = await (
-        await fetch("http://localhost:3004/problems/other")
+        await fetch("https://whole-kingfisher-87.deno.dev/problems/other")
       ).json();
     }
     
