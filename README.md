@@ -22,8 +22,8 @@ Die Website ist unter https://www.projekt.jan-ruedt.de/ erreichbar.
 
 https://user-images.githubusercontent.com/96745479/151675120-ae063f60-616b-482e-bb27-43f03638c5bc.mov
 
-
-
+<br/>
+<br/>
 
 ## Einarbeitung in Html, CSS, JS durch Erstellung der Landingpage des Fallstudienprojektes (im Repo als "Fallstudie-Infoseite" bezeichnet)
 
