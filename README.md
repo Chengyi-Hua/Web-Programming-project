@@ -4,7 +4,7 @@ DHBW Mannheim - Semester.3
 - Contribution: https://github.com/Chengyi-Hua/Web-Programming-project/blob/main/contributions.md
 
 Da es momentan sehr schwierig ist, Termine bei Psychologen zu bekommen, wäre unserer Meinung nach eine sinnvolle Ergänzung zur App (eine IOS-APP, entwickelt für die Fallstudie) eine Webschnittstelle, mit der User Psychologen (Personen mit entsprechenden Wissensstand) Fragen hinterlassen können und sich Ratschläge zu wichtigen Themen geben lassen können. Zukünftig können wir uns auch vorstellen AI-Chat-Bots als psychologen einzusetzen.
-
+<br/>
 ## Deployment and hosting
 
 ### Backend deployment
@@ -12,9 +12,7 @@ Der Server wurde mit Hilfe von [deno deploy](https://deno.com/deploy) deployed, 
 
 ### Frontend deployment
 Die Website ist unter https://www.projekt.jan-ruedt.de/ erreichbar. 
-
-
-
+<br/>
 ## Demo-Video
 
 
@@ -31,8 +29,8 @@ https://user-images.githubusercontent.com/96745479/151675120-ae063f60-616b-482e-
 
 Für das Kennenlernen und Üben mit Web-app Programming wurde eine Landingpage für JOY (IOS Version) erstellt. Dabei werden keine Links wie zum Beispiel Log-in oder Social Media hinterlegt.   
 
-
-
+<br/>
+<br/>
 ## Verwendung für lokales setup
 - ### Schritt 1: Repository klonen 
 
