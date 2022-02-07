@@ -14,7 +14,9 @@ Der Server wurde mit Hilfe von [deno deploy](https://deno.com/deploy) deployed, 
 
 ### Frontend deployment
 Die Website ist unter https://www.projekt.jan-ruedt.de/ erreichbar. 
+
 <br/>
+
 ## Demo-Video
 
 
