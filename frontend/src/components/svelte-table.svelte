@@ -1,66 +1,40 @@
 <script>
     import { createEventDispatcher } from "svelte";
-    /** @type {Array<Object>} */
     export let columns;
-    /** @type {Array<Object>} */
     export let rows;
-    /** @type {Array<Object>} */
     export let c_rows;
-    /** @type {Array<number>} */
     export let sortOrders = [1, -1];
-    // READ AND WRITE
-    /** @type {string} */
     export let sortBy = "";
-    /** @type {number} */
     export let sortOrder = sortOrders?.[0] || 1;
-    /** @type {Object} */
     export let filterSelections = {};
-    // expand
-    /** @type {Array.<string|number>} */
     export let expanded = [];
-    // READ ONLY
-    /** @type {string} */
     export let expandRowKey = null;
-    /** @type {string} */
     export let expandSingle = false;
-    /** @type {string} */
     export let iconAsc = "▲";
-    /** @type {string} */
     export let iconDesc = "▼";
-    /** @type {string} */
     export let iconSortable = "";
-    /** @type {string} */
     export let iconExpand = "▼";
-    /** @type {string} */
     export let iconExpanded = "▲";
-    /** @type {boolean} */
     export let showExpandIcon = false;
-    /** @type {string} */
     export let classNameTable = "";
-    /** @type {string} */
     export let classNameThead = "";
-    /** @type {string} */
     export let classNameTbody = "";
-    /** @type {string} */
     export let classNameSelect = "";
-    /** @type {string} */
     export let classNameRow = "";
-    /** @type {string} */
     export let classNameCell = "";
-    /** @type {string} class added to the expanded row*/
     export let classNameRowExpanded = "";
-    /** @type {string} class added to the expanded row*/
     export let classNameExpandedContent = "";
-    /** @type {string} class added to the cell that allows expanding/closing */
     export let classNameCellExpand = "";
+
     const dispatch = createEventDispatcher();
     let sortFunction = () => "";
-    // Validation
+
     if (!Array.isArray(expanded)) throw "'expanded' needs to be an array";
     let showFilterHeader = columns.some(c => {
       // check if there are any filter or search headers
       return c.filterOptions !== undefined || c.searchValue !== undefined;
     });
+
     let filterValues = {};
     let columnByKey;
     $: {
@@ -69,9 +43,11 @@
         columnByKey[col.key] = col;
       });
     }
+
     $: colspan = (showExpandIcon ? 1 : 0) + columns.length;
     $: c_rows = rows
       .filter(r => {
+
         // get search and filter results/matches
         return Object.keys(filterSelections).every(f => {
           // check search (text input) matches
@@ -81,6 +57,7 @@
               (columnByKey[f].searchValue(r) + "")
                 .toLocaleLowerCase()
                 .indexOf((filterSelections[f] + "").toLocaleLowerCase()) >= 0);
+
           // check filter (dropdown) matches
           let resFilter =
             resSearch ||
@@ -92,6 +69,7 @@
                 : columnByKey[f].value(r));
           return resFilter;
         });
+
       })
       .map(r =>
         Object.assign({}, r, {
@@ -108,11 +86,15 @@
         else if (a.$sortOn < b.$sortOn) return -sortOrder;
         return 0;
       });
+
+
     const asStringArray = v =>
       []
         .concat(v)
         .filter(v => typeof v === "string" && v !== "")
         .join(" ");
+
+
     const calculateFilterValues = () => {
       filterValues = {};
       columns.forEach(c => {
@@ -127,6 +109,8 @@
         }
       });
     };
+
+
     $: {
       let col = columnByKey[sortBy];
       if (
@@ -143,6 +127,8 @@
         calculateFilterValues();
       }
     }
+
+
     const updateSortOrder = colKey => {
       return colKey === sortBy
         ? sortOrders[
@@ -150,6 +136,8 @@
           ]
         : sortOrders[0];
     };
+
+
     const handleClickCol = (event, col) => {
       if (col.sortable) {
         sortOrder = updateSortOrder(col.key);
@@ -157,9 +145,13 @@
       }
       dispatch("clickCol", { event, col, key: col.key });
     };
+
+
     const handleClickRow = (event, row) => {
       dispatch("clickRow", { event, row });
     };
+
+
     const handleClickExpand = (event, row) => {
       row.$expanded = !row.$expanded;
       const keyVal = row[expandRowKey];
@@ -174,11 +166,15 @@
       }
       dispatch("clickExpand", { event, row });
     };
+
+
     const handleClickCell = (event, row, key) => {
       dispatch("clickCell", { event, row, key });
     };
   </script>
   
+
+
   <table class={asStringArray(classNameTable)}>
     <thead class={asStringArray(classNameThead)}>
       {#if showFilterHeader}
@@ -205,6 +201,8 @@
           {/if}
         </tr>
       {/if}
+
+
       <slot name="header" {sortOrder} {sortBy}>
         <tr>
           {#each columns as col}

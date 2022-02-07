@@ -10,7 +10,7 @@
 - https://stackoverflow.com/questions/70864437/give-back-answers-from-backend-based-on-inputs-from-frontend ---- teilweise mithilfe von: https://stackoverflow.com/questions/63205191/express-route-parameters-vs-http-query-parameters gelöst
 
 # Deno Module: Übungen und Kennenlernen
-https://github.com/Chengyi-Hua/Deno_Module_Ausprobieren
+siehe https://github.com/Chengyi-Hua/Deno_Module_Ausprobieren,
 ausprobiert haben wir:
 - https://deno.land/x/sort
 - https://deno.land/x/request
