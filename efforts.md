@@ -1,17 +1,17 @@
 
 # Deno-Einarbeitung/Efforts
-**Lernmaterial:
+**Lernmaterial:**
 - Youtube
 - Unterrichtseinheiten 
 - Denoblog: https://deno.com/blog für aktuelle News
 - https://www.tutorialsteacher.com/typescript
 
-**Lernmaterial für Deno-Modul Veröffentlichung:
+**Lernmaterial für Deno-Modul Veröffentlichung:**
 - Unterrichtseinheiten
 - https://www.youtube.com/watch?v=eN3OIx7KQFw&t=334s
 
 # Svelte Einarbeitung/Efforts
-**Grundlagen und Beispiele:
+**Grundlagen und Beispiele:**
 - https://www.youtube.com/watch?v=lnpdn2rE2N8
 - https://svelte.dev/tutorial/basics
 - https://www.youtube.com/watch?v=3TVy6GdtNuQ&t=3212s
