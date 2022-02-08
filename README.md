@@ -75,20 +75,28 @@ path+=('/Users/<user>/.deno/bin')
 
 
 ## Mögliche Hürden
-Problem 1: Die Installation von Deno unter Windows mit der Powershell-Eingabe
-```bash 
-iwr https://deno.land/x/install/install.ps1 -useb | iex 
-```
-funktioniert nicht.
+Problem 1: Die Installation von Deno unter Windows mit der Powershell-Eingabe `iwr https://deno.land/x/install/install.ps1 -useb | iex ` funktioniert nicht.
 
 <br/>
 
-Lösung: Powershell ISE als Administrator öffnen und "iwr https://deno.land/x/install/install.ps1 -useb | iex" ausführen.
+Lösung: Powershell ISE als Administrator ausführen.
 
-Problem 2: "trex run start" funktioniert nicht. Lösung: Um damit arbeiten zu können, führe "deno run --allow-run --allow-read https://deno.land/x/snel/install.ts" aus.
-Nun kann man mit "trex run start" die Web app starten. (wenn man im richtigen Pfad ist)
+Problem 2: `trex run start` funktioniert nicht. 
 
-Problem 3: Module fehlen. Lösung: "https://deno.land/x/cors" und "https://deno.land/x/opine" installieren.
+<br/>
 
-Problem 4: Deployment des Frontend mit [deno deploy](https://deno.com/deploy) wirft Momentan noch einen 502 Error.
+Lösung: Führe zuvor `deno run --allow-run --allow-read https://deno.land/x/snel/install.ts` aus.
+Nun kann man mit `trex run start` die Web app starten. (wenn man im richtigen Pfad ist)
+
+Problem 3: Module fehlen. 
+
+<br/>
+
+Lösung: "https://deno.land/x/cors" und "https://deno.land/x/opine" installieren.
+
+Problem 4: Deployment des Frontend mit [deno deploy](https://deno.com/deploy) wirft einen 502 Error.
+
+<br/>
+
+Lösung: Hosting auf einem eigenen Webserver.
 
