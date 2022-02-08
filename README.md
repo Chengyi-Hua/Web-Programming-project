@@ -13,11 +13,7 @@ Da es momentan sehr schwierig ist, Termine bei Psychologen zu bekommen, wäre un
 Der Server wurde mit Hilfe von [deno deploy](https://deno.com/deploy) deployed, welches auf das Repository zugreift und den Server nach einem Commit der [server.ts](/backend/server.ts) Datei automatisch aktualisiert. Der Server ist nun unter https://joy-backend.deno.dev/ erreichbar. 
 
 ### Frontend deployment
-Das Frontend wurde mithilfe des Befehls
-```bash
-trex run build
-```
-kompiliert und auf einem Webserver hochgeladen. Die Website ist unter https://www.projekt.jan-ruedt.de/ erreichbar. 
+Das Frontend wurde mithilfe des Befehls `trex run build` kompiliert und auf einem Webserver hochgeladen. Die Website ist unter https://www.projekt.jan-ruedt.de/ erreichbar. 
 
 <br/>
 
@@ -75,28 +71,25 @@ path+=('/Users/<user>/.deno/bin')
 
 
 ## Mögliche Hürden
-Problem 1: Die Installation von Deno unter Windows mit der Powershell-Eingabe `iwr https://deno.land/x/install/install.ps1 -useb | iex ` funktioniert nicht.
-
-<br/>
-
+Problem 1: Die Installation von Deno unter Windows mit der Powershell-Eingabe `iwr https://deno.land/x/install/install.ps1 -useb | iex ` funktioniert nicht.<br>
 Lösung: Powershell ISE als Administrator ausführen.
 
-Problem 2: `trex run start` funktioniert nicht. 
-
 <br/>
+
+Problem 2: `trex run start` funktioniert nicht. <br>
 
 Lösung: Führe zuvor `deno run --allow-run --allow-read https://deno.land/x/snel/install.ts` aus.
 Nun kann man mit `trex run start` die Web app starten. (wenn man im richtigen Pfad ist)
 
-Problem 3: Module fehlen. 
-
 <br/>
+
+Problem 3: Module fehlen. <br>
 
 Lösung: "https://deno.land/x/cors" und "https://deno.land/x/opine" installieren.
 
-Problem 4: Deployment des Frontend mit [deno deploy](https://deno.com/deploy) wirft einen 502 Error.
-
 <br/>
+
+Problem 4: Deployment des Frontend mit [deno deploy](https://deno.com/deploy) wirft einen 502 Error.<br>
 
 Lösung: Hosting auf einem eigenen Webserver.
 
