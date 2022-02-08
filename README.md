@@ -10,7 +10,7 @@ Da es momentan sehr schwierig ist, Termine bei Psychologen zu bekommen, wäre un
 ## Deployment and hosting
 
 ### Backend deployment
-Der Server wurde mit Hilfe von [deno deploy](https://deno.com/deploy) deployed, welches auf das Repository zugreift und den Server nach einem Commit der [server.ts](/backend/server.ts) Datei automatisch aktualisiert. Der Server ist nun unter https://joy-backend.deno.dev/ erreichbar. 
+Der Server wurde mit Hilfe von [deno deploy](https://deno.com/deploy) deployed, welches auf das Repository zugreift und den Server nach einem Commit der [server.ts](/backend/server.ts) Datei automatisch aktualisiert. Der Server ist nun unter https://joy-backend.deno.dev/ erreichbar (Routing zu den einzelnen Gefühlslagen über /problems/<stress, trauer, freunde, familie, lernen, sport, other>). 
 
 ### Frontend deployment
 Das Frontend wurde mithilfe des Befehls `trex run build` kompiliert und auf einem Webserver hochgeladen. Die Website ist unter https://www.projekt.jan-ruedt.de/ erreichbar. 
