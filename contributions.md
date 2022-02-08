@@ -14,7 +14,7 @@ siehe https://github.com/Chengyi-Hua/Deno_Module_Ausprobieren, ausprobiert haben
 - https://deno.land/x/sort
 - https://deno.land/x/request
 - https://deno.land/x/injector
-- https://deno.land/x/distancecalculator  ( [Feature Request erstellt:](https://github.com/michael-spengler/distance-calculator/issues/3) Wäre es nicht praktisch, zusätzlich zur Fluglinie die Fahrtschrecke oder Reisezeiten zu berechnen https://github.com/michael-spengler/distance-calculator/issues/3)
+- https://deno.land/x/distancecalculator    ([Feature Request erstellt:](https://github.com/michael-spengler/distance-calculator/issues/3) Wäre es nicht praktisch, zusätzlich zur Fluglinie die Fahrtschrecke oder Reisezeiten zu berechnen https://github.com/michael-spengler/distance-calculator/issues/3)
 - https://deno.land/x/opine (in Projekt)
 - https://deno.land/x/cors (in Projekt)
 
