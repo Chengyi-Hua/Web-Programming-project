@@ -1,9 +1,9 @@
 # Web-Programming-Projekt
-DHBW Mannheim - Semester.3
+DHBW Mannheim - 3. Semester
 - Einarbeitung/Efforts: https://github.com/Chengyi-Hua/Web-Programming-project/blob/main/efforts.md
 - Contribution: https://github.com/Chengyi-Hua/Web-Programming-project/blob/main/contributions.md
 
-Da es momentan sehr schwierig ist, Termine bei Psychologen zu bekommen, wäre unserer Meinung nach eine sinnvolle Ergänzung zur App (eine IOS-APP, entwickelt für die Fallstudie) eine Webschnittstelle, mit der User Psychologen (Personen mit entsprechenden Wissensstand) Fragen hinterlassen können und sich Ratschläge zu wichtigen Themen geben lassen können. Zukünftig können wir uns auch vorstellen AI-Chat-Bots als psychologen einzusetzen.
+Da es momentan sehr schwierig ist, Termine bei Psychologen zu bekommen, wäre unserer Meinung nach eine sinnvolle Ergänzung zur App (eine IOS-APP, entwickelt für die Fallstudie) eine Webschnittstelle, mit der User Psychologen (Personen mit entsprechenden Wissensstand) Fragen hinterlassen können und sich Ratschläge zu wichtigen Themen geben lassen können. Zukünftig können wir uns auch vorstellen, AI-Chat-Bots als psychologische Unterstützung einzusetzen.
 
 <br/>
 
@@ -13,7 +13,11 @@ Da es momentan sehr schwierig ist, Termine bei Psychologen zu bekommen, wäre un
 Der Server wurde mit Hilfe von [deno deploy](https://deno.com/deploy) deployed, welches auf das Repository zugreift und den Server nach einem Commit der [server.ts](/backend/server.ts) Datei automatisch aktualisiert. Der Server ist nun unter https://joy-backend.deno.dev/ erreichbar. 
 
 ### Frontend deployment
-Die Website ist unter https://www.projekt.jan-ruedt.de/ erreichbar. 
+Das Frontend wurde mithilfe des Befehls
+```bash
+trex run build
+```
+kompiliert und auf einem Webserver hochgeladen. Die Website ist unter https://www.projekt.jan-ruedt.de/ erreichbar. 
 
 <br/>
 
@@ -26,11 +30,11 @@ https://user-images.githubusercontent.com/96745479/151675120-ae063f60-616b-482e-
 
 <br/>
 
-## Einarbeitung in Html, CSS, JS durch Erstellung der Landingpage des Fallstudienprojektes (im Repo als "Fallstudie-Infoseite" bezeichnet)
+## Einarbeitung in HTML, CSS, JS durch Erstellung der Landingpage des Fallstudienprojektes (im Repo als "Fallstudie-Infoseite" bezeichnet)
 
 - https://joy-landingpage-design-3969.bss.design
 
-Für das Kennenlernen und Üben mit Web-app Programming wurde eine Landingpage für JOY (IOS Version) erstellt. Dabei werden keine Links wie zum Beispiel Log-in oder Social Media hinterlegt.   
+Für das Kennenlernen und Üben von Webprogramming wurde eine Landingpage für das Fallstudienprojekt "JOY" (IOS-App) erstellt. Der Code hierfür ist im Ordner "frontend" hinterlegt.
 
 <br/>
 
@@ -71,7 +75,15 @@ path+=('/Users/<user>/.deno/bin')
 
 
 ## Mögliche Hürden
-Problem 1: Das Installieren. für Windows (Powershell) "iwr https://deno.land/x/install/install.ps1 -useb | iex" funktioniert nicht. Lösung: Powershell ISE als administrator öffnen und "iwr https://deno.land/x/install/install.ps1 -useb | iex" ausführen.
+Problem 1: Die Installation von Deno unter Windows mit der Powershell-Eingabe
+```bash 
+iwr https://deno.land/x/install/install.ps1 -useb | iex 
+```
+funktioniert nicht.
+
+<br/>
+
+Lösung: Powershell ISE als Administrator öffnen und "iwr https://deno.land/x/install/install.ps1 -useb | iex" ausführen.
 
 Problem 2: "trex run start" funktioniert nicht. Lösung: Um damit arbeiten zu können, führe "deno run --allow-run --allow-read https://deno.land/x/snel/install.ts" aus.
 Nun kann man mit "trex run start" die Web app starten. (wenn man im richtigen Pfad ist)
